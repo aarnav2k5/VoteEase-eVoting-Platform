@@ -1,4 +1,4 @@
-# **VoteEase-Blockchainbased E-Voting System**
+# **VoteEase-Blockchain Based E-Voting System**
 
 A secure, transparent, and accessible e-voting platform that leverages **blockchain technology** for immutable vote recording and seamless voter authentication. Designed to modernize the voting process and ensure trust in democratic elections.
 
