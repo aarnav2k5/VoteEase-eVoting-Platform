@@ -1,47 +1,59 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/26466516/107675802-36216b80-6c77-11eb-8db1-4d3407dc53d9.png" alt="Next.js and TypeScript">
-</p>
+# **Blockchain-based E-Voting System with QR Code Integration**
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=24B36B&labelColor=000000" alt="PRs welcome!" />
+A secure, transparent, and accessible e-voting platform that leverages **blockchain technology** for immutable vote recording and **QR codes** for seamless voter authentication. Designed to modernize the voting process and ensure trust in democratic elections.
 
-  <img alt="License" src="https://img.shields.io/github/license/chhpt/typescript-nextjs-starter?style=for-the-badge&color=24B36B&labelColor=000000">
+---
 
-  <a href="https://twitter.com/intent/follow?screen_name=cwuyiqing">
-    <img src="https://img.shields.io/twitter/follow/cwuyiqing?style=for-the-badge&color=24B36B&labelColor=000000" alt="Follow @chhpt" />
-  </a>
-</p>
+## 🚀 **Features**
+- **QR Code Voter Authentication:** Simplifies voter identification and eliminates manual errors.
+- **Blockchain Integration:** Ensures vote transparency, immutability, and resistance to tampering.
+- **User-Friendly Interface:** Provides an intuitive and easy-to-use voting platform.
+- **Decentralized Ledger:** Enhances trust by making voting records publicly verifiable.
+- **Secure & Transparent:** Eliminates fraud and ensures the integrity of elections.
 
-<br>
+---
 
+## 🌟 **Why This Project?**
+Traditional voting systems face challenges like:
+- Susceptibility to fraud and manipulation.
+- Inefficiencies in manual vote processing.
+- Lack of transparency and accessibility.
 
-# Hardhat-Tailwind-NextJs Ethers Starter Kit
-Speedily develope your decentralized application with this NextJs starter kit for free. It has Redux-Toolkit, NextJs 13, React 18, Hardhat, EthersJs, Tailwind, etc.
+Our solution bridges these gaps by integrating blockchain and QR code technology to create a reliable, efficient, and secure voting platform.
 
-Follow the steps below to download, install, and run this project.
+---
 
-## Dependencies
-Install these prerequisites to follow along with the tutorial. See free video tutorial or a full explanation of each prerequisite.
-- NPM: https://nodejs.org
-- Hardhat: https://hardhat.org/
-- EthersJs: https://ethers.org/
-- Tailwind CSS: https://tailwindcss.com/
+## 🛠️ **Tech Stack**
+| **Technology**         | **Purpose**                                  |
+|-------------------------|----------------------------------------------|
+| **Blockchain (Ethereum)** | Secure and immutable vote recording.        |
+| **QR Code Technology**  | Voter verification and authentication.      |
+| **React.js**            | Front-end framework for a responsive UI.    |
+| **Node.js**             | Back-end server and APIs.                   |
+| **MongoDB**             | Database for storing user details.          |
+| **Web3.js**             | Interaction with blockchain.                |
+| **Express.js**          | Backend framework for building REST APIs.   |
 
+---
 
-## Step 1. Clone the project
-`git clone https://github.com/Daltonic/hardhat_ethersjs_next_starter_app <PROJECT NAME>`
+## 🔄 **Workflow**
+1. **Voter Registration**: Each voter receives a unique, secure QR code upon registration.
+2. **Authentication**: Voters scan their QR code at designated booths or via remote systems.
+3. **Voting Process**: The voter selects their candidate using an intuitive interface.
+4. **Blockchain Recording**: The vote is encrypted and recorded on the blockchain.
+5. **Real-time Verification**: Voting data is immutable and verifiable by all stakeholders.
 
-## Step 2. Install dependencies
-```sh
-$ cd <PROJECT NAME>
-$ yarn install # or npm install
-```
-## Step 3. Start Hardhat Node
-Open the terminal and run the command below.
-```sh
-$ yarn hardhat node
-```
+---
 
-## Step 4. Run the Front End Application
-`$ yarn dev`
-Visit this URL in your browser: http://localhost:3000
+## 🖥️ **Setup Instructions**
+### Prerequisites
+- [Node.js](https://nodejs.org/)
+- [MongoDB Community Edition](https://www.mongodb.com/docs/manual/installation/)
+- [MetaMask](https://metamask.io/) (for blockchain interaction)
+- A code editor (e.g., Visual Studio Code)
+
+### Steps
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/e-voting-blockchain.git
+   cd e-voting-blockchain
